@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react'
-import { Navbar, NavbarBrand , NavbarToggler , Collapse , Nav , NavItem , NavLink , UncontrolledDropdown , DropdownToggle , DropdownItem , NavbarText , DropdownMenu } from 'reactstrap';
+import { Navbar, NavbarBrand , NavbarToggler , Collapse , Nav , NavItem , UncontrolledDropdown , DropdownToggle , DropdownItem , NavbarText , DropdownMenu } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -33,17 +34,17 @@ class Header extends Component {
                         navbar
                     >
                         <NavItem>
-                        <NavLink href="Homepage.js">
-                        Home
+                        <NavLink className="nav-link" to="/home">
+                            Home
                         </NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="Aboutme.js">
+                        <NavLink className="nav-link" to="/aboutme">
                             About me
                         </NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="PhotoGallery.js">
+                        <NavLink className="nav-link" to="/gallery">
                             Gallery
                         </NavLink>
                         </NavItem>

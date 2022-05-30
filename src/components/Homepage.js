@@ -5,7 +5,7 @@ import { UncontrolledCarousel ,Card, CardImg, CardText, CardBody, CardTitle, Car
 function Home() {
   return (
     <div>
-      <Header/>
+      
         <div className='container'>
             <div className='row align-items-start mt-3'>
             <h3> Home </h3>
@@ -93,7 +93,7 @@ function Home() {
                 </div>
             </div>  
         </div>
-      <Footer/>
+      
     </div>
   )
 }

@@ -69,7 +69,7 @@ function Gallery() {
 
     return (
         <div>
-        <Header/>
+        
         <div className='container'>
             <div className='row align-items-start mt-3'>
             <h3> Photo Gallery </h3>
@@ -85,7 +85,7 @@ function Gallery() {
             </div>
         </div>
             
-        <Footer/>
+        
         </div>
     )
 }

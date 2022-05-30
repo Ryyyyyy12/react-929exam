@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle , CardSubtitle } from 'rea
 function Aboutme() {
   return (
     <div>
-      <Header/>
+      
         <div className='container'>
             <div className='row align-items-start mt-3'>
             <h3> About me </h3>
@@ -155,7 +155,7 @@ function Aboutme() {
             </div>
             
         </div>
-      <Footer/>
+      
     </div>
   )
 }

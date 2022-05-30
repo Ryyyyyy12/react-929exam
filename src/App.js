@@ -3,14 +3,16 @@ import './App.css';
 import Home from './components/Homepage';
 import Aboutme from './components/Aboutme';
 import Gallery from './components/PhotoGallery';
+import HomeComponent from './components/HomeComponent';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Aboutme/>
-      <Gallery/>
-    </div>
+    <BrowserRouter>
+        <div className="App">
+          <HomeComponent />
+        </div>
+    </BrowserRouter>
   );
 }
 
